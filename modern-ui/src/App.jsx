@@ -8,7 +8,12 @@ const App = () => {
         <Button className="mt-10" href="#login">
           Submit
         </Button>
+        ok
       </div>
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt fugit
+      voluptatum nam aliquam quam consequuntur ipsum assumenda saepe quasi
+      cupiditate omnis, distinctio neque in sapiente! Itaque, eum veniam?
+      Laboriosam, mollitia?
       <ButtonGradient />
     </>
   );
