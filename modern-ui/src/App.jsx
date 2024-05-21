@@ -1,10 +1,17 @@
-function App() {
+import ButtonGradient from "./assets/svg/ButtonGradient";
+import Button from "./components/Button";
+const App = () => {
   return (
     <>
       <h1 className="text-light text-3xl">Hello world</h1>
-      <div className="text-red-700 font-bold underline">ok</div>
+      <div className="pt-[4.75rem] lg:pt-[5.25rem] overflow-hidden">
+        <Button className="mt-10" href="#login">
+          Submit
+        </Button>
+      </div>
+      <ButtonGradient />
     </>
   );
-}
+};
 
 export default App;
