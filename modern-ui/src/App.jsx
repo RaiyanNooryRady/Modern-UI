@@ -5,7 +5,7 @@ const App = () => {
     <>
       <h1 className="text-light text-3xl">Hello world</h1>
       <div className="pt-[4.75rem] lg:pt-[5.25rem] overflow-hidden">
-        <Button className="mt-10" href="#login">
+        <Button className=" mt-5 " href="#login">
           Submit
         </Button>
         ok
